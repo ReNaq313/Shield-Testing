@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Shield Testing</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+   <nav class="navbar">
+      <div class="navbar__logo">
+         <h1>Shield Testing</h1>
+      </div>
+      <div class="navbar__menu">
+         <a href="login.html" class="navbar__link">Login</a>
+         <a href="signup.html" class="navbar__link">Signup</a>
+      </div>
+   </nav>
+
+   <div class="container">
+      <div class="card">
+         <div class="card__logo">
+            <img src="./assets/logo-png.png" alt="Reza Shield Testing" class="logo-image">
+            <h2>Reza Shield Testing</h2>
+         </div>
+         <div class="card__login">
+            <h3>Login Credentials</h3>
+            <h4>Username: <span> Binod </span> </h4>
+            <h4>Password: <span> SuperSecurePassword </span> </h4>
+            <form class="form">
+               <div class="form__group">
+                  <label for="username" class="form__label">Username</label>
+                  <input type="text" id="username" class="form__input" placeholder="Enter username" autocomplete="off">
+               </div>
+               <div class="form__group">
+                  <label for="password" class="form__label">Password</label>
+                  <input type="password" id="password" class="form__input" placeholder="Enter password">
+               </div>
+               <div class="form__group checkbox-group">
+                  <input type="checkbox" id="remember-me" class="checkbox-input">
+                  <label for="remember-me" class="checkbox-label">Remember Me</label>
+               </div>
+               <button type="submit" class="btn btn--primary login-button">Submit</button>
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <footer>
+      <p>Made with 💚 by Reza Naqvi</p>
+   </footer>
+
+   <script src="./scripts/index.js"></script>
+</body>
+
+</html>

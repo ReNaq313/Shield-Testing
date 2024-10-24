@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body class="light-mode">
+    <header class="navbar">
+        <nav class="navbar__container">
+            <div class="navbar__brand">Dashboard</div>
+            <div class="navbar__controls">
+                <span id="username"></span>
+                <div class="user-menu hidden" id="user-menu">
+                    <button id="logout-btn" class="btn">Logout</button>
+                </div>
+                <div class="theme-toggle">
+                    <input type="radio" id="toggle-dark" name="theme" hidden>
+                    <label for="toggle-dark" class="theme-icon">&#x1F319;</label> <!-- Moon icon for Dark Mode -->
+
+                    <input type="radio" id="toggle-light" name="theme" hidden>
+                    <label for="toggle-light" class="theme-icon">&#x2600;</label> <!-- Sun icon for Light Mode -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to your dashboard!</h1>
+        <p>Your data is saved for 7 days using local storage or cookies.</p>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Created with 💚 By Reza Naqvi @MET</p>
+    </footer>
+
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>

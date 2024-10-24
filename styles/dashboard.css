@@ -1,0 +1,102 @@
+/* Basic Layout */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+main {
+   flex: 1;
+   padding: 2rem;
+   text-align: center;
+}
+
+.navbar {
+   background-color: #007bff;
+   color: white;
+   padding: 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navbar__container {
+   display: flex;
+   align-items: center;
+}
+
+.navbar__brand {
+   font-size: 1.5rem;
+}
+
+.navbar__controls {
+   display: flex;
+   align-items: center;
+}
+
+#username {
+   margin-right: 1rem;
+   cursor: pointer;
+}
+
+.user-menu.hidden {
+   display: none;
+}
+
+.user-menu {
+   position: absolute;
+   top: 60px;
+   right: 20px;
+}
+
+.btn {
+   padding: 0.5rem 1rem;
+   background-color: #ff4b4b;
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 4px;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+   display: flex;
+   align-items: center;
+   margin-left: 1rem;
+}
+
+.theme-icon {
+   font-size: 1.5rem;
+   cursor: pointer;
+   padding: 0 0.5rem;
+}
+
+.theme-toggle input[type="radio"] {
+   display: none;
+}
+
+.footer {
+   background-color: #f1f1f1;
+   padding: 1rem;
+   text-align: center;
+   font-size: 0.9rem;
+}
+
+.footer__text {
+   color: #333;
+}
+
+/* Light Mode */
+body.light-mode {
+   background-color: white;
+   color: black;
+}
+
+/* Dark Mode */
+body.dark-mode {
+   background-color: #333;
+   color: white;
+}
